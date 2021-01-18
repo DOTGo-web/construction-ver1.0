@@ -12,6 +12,15 @@ h1 {
     font-size: 2em;
     margin: .67em 0;
 }
+#sb_instagram img{
+    height: 80px;
+    width: 100%;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+#sb_instagram img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 figcaption, figure {
     display: block;
 }
@@ -9468,6 +9477,12 @@ hr {
 }@media (max-width:899px) and (min-width:350px) {
     h1, h2 {
     font-size: 3.125rem;
+}
+#sb_instagram img {
+    height: 120px;
+    width: 100%;
+    transition: transform .5s ease;
+    cursor: pointer;
 }
 h3 {
     font-size: 2.5rem;

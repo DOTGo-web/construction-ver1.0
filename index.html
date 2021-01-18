@@ -13,11 +13,11 @@
          <link rel='stylesheet' id='wp-block-library-css'  href='assets/css/style.min.css' media='all' />
          <link rel='stylesheet' id='cartel-style-css'  href='assets/css/custom-style.css' type='text/css' media='all' />
         
-         <script>
+         <!-- <script>
             window.settings = {
                 gMapKey: ""
             };
-         </script>      
+         </script>       -->
       </head>
       <body class="v-loading">
          <div class="v-preloader" id="preloader"></div>
@@ -34,10 +34,10 @@
                   <div class="header__nav">
                      <header-menu>
                         <ul id="menu-header_menu" class="">
-                           <li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-287 active"><a title="Overview" href="">Overview</a></li>
-                           <li id="menu-item-188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a title="How It Works" href="">How It Works</a></li>
-                           <li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a title="Technology" href="">Technology</a></li>
-                           <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a title="Gallery" href="">Gallery</a></li>
+                           <li id="menu-item-287" class="menu-item   menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-287 active"><a title="Overview" href="">Overview</a></li>
+                           <li class="menu-item"><a title="How It Works" href="">How It Works</a></li>
+                           <li class="menu-item"><a title="Technology" href="">Technology</a></li>
+                           <li class="menu-item"><a title="Gallery" href="">Gallery</a></li>
                         </ul>
                      </header-menu>
                   </div>
@@ -66,34 +66,24 @@
                         </div>
                         <menu-accordion-nav class="menu-accordion-nav mobile-menu__links v-menu__translate">
                            <ul id="menu-header_menu-1" class="">
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-287 active"><a title="Overview" href="#">Overview</a></li>
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-188"><a title="How It Works" href="#">How It Works</a></li>
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a title="Technology" href="#">Technology</a></li>
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a title="Gallery" href="#">Gallery</a></li>
+                              <li class="menu-item   menu-item-home current-menu-item page_item page-item-12 current_page_item menu-item-287 active"><a title="Overview" href="#">Overview</a></li>
+                              <li class="menu-item"><a title="How It Works" href="#">How It Works</a></li>
+                              <li class="menu-item"><a title="Technology" href="#">Technology</a></li>
+                              <li class="menu-item"><a title="Gallery" href="#">Gallery</a></li>
                            </ul>
                         </menu-accordion-nav>
                      </div>
                   </div>
                </div>
             </div>
-            <div 
-               class="app" 
-               id="app"
-               data-v-page="home-page" 
-               data-v-pageAjax-name="home-page" 
-               >
-               <div 
-                  class="scroll home-page" 
-                  id="scroll"
-                  >
+            <div class="app" id="app" data-v-page="home-page" data-v-pageAjax-name="home-page">
+               <div class="scroll home-page" id="scroll">
                   <div class="scroll__outer">
                      <intro-section class="intro-section">
                         <split-text class="intro-section__header split-text" tabindex="0">
                            <h1>A BETTER WAY TO<br>BUILD</h1>
                         </split-text>
-                        <image-sequence
-                           class="image-sequence"
-                           desktop-sequence='["home3d00.jpg","home3d01.jpg","home3d02.jpg","home3d03.jpg","home3d04.jpg","home3d05.jpg","home3d06.jpg","home3d07.jpg","home3d08.jpg","home3d09.jpg","home3d10.jpg","home3d11.jpg","home3d12.jpg","home3d13.jpg","home3d14.jpg","home3d15.jpg","home3d16.jpg","home3d17.jpg","home3d18.jpg","home3d19.jpg","home3d20.jpg","home3d21.jpg","home3d22.jpg","home3d23.jpg","home3d24.jpg","home3d25.jpg","home3d26.jpg","home3d27.jpg","home3d28.jpg","home3d29.jpg","home3d30.jpg","home3d31.jpg","home3d32.jpg","home3d33.jpg","home3d34.jpg","home3d35.jpg","home3d36.jpg","home3d37.jpg","home3d38.jpg","home3d39.jpg","home3d40.jpg","home3d41.jpg","home3d42.jpg","home3d43.jpg","home3d44.jpg","home3d45.jpg","home3d46.jpg","home3d47.jpg","home3d48.jpg","home3d49.jpg","home3d50.jpg","home3d51.jpg","home3d52.jpg","home3d53.jpg","home3d54.jpg","home3d55.jpg","home3d56.jpg","home3d57.jpg","home3d58.jpg","home3d59.jpg","home3d60.jpg","home3d61.jpg","home3d62.jpg","home3d63.jpg","home3d64.jpg","home3d65.jpg","home3d66.jpg","home3d67.jpg","home3d68.jpg","home3d69.jpg","home3d70.jpg","home3d71.jpg","home3d72.jpg","home3d73.jpg","home3d74.jpg","home3d75.jpg","home3d76.jpg","home3d77.jpg","home3d78.jpg","home3d79.jpg","home3d80.jpg"]'
+                        <image-sequence class="image-sequence" desktop-sequence='["home3d00.jpg","home3d01.jpg","home3d02.jpg","home3d03.jpg","home3d04.jpg","home3d05.jpg","home3d06.jpg","home3d07.jpg","home3d08.jpg","home3d09.jpg","home3d10.jpg","home3d11.jpg","home3d12.jpg","home3d13.jpg","home3d14.jpg","home3d15.jpg","home3d16.jpg","home3d17.jpg","home3d18.jpg","home3d19.jpg","home3d20.jpg","home3d21.jpg","home3d22.jpg","home3d23.jpg","home3d24.jpg","home3d25.jpg","home3d26.jpg","home3d27.jpg","home3d28.jpg","home3d29.jpg","home3d30.jpg","home3d31.jpg","home3d32.jpg","home3d33.jpg","home3d34.jpg","home3d35.jpg","home3d36.jpg","home3d37.jpg","home3d38.jpg","home3d39.jpg","home3d40.jpg","home3d41.jpg","home3d42.jpg","home3d43.jpg","home3d44.jpg","home3d45.jpg","home3d46.jpg","home3d47.jpg","home3d48.jpg","home3d49.jpg","home3d50.jpg","home3d51.jpg","home3d52.jpg","home3d53.jpg","home3d54.jpg","home3d55.jpg","home3d56.jpg","home3d57.jpg","home3d58.jpg","home3d59.jpg","home3d60.jpg","home3d61.jpg","home3d62.jpg","home3d63.jpg","home3d64.jpg","home3d65.jpg","home3d66.jpg","home3d67.jpg","home3d68.jpg","home3d69.jpg","home3d70.jpg","home3d71.jpg","home3d72.jpg","home3d73.jpg","home3d74.jpg","home3d75.jpg","home3d76.jpg","home3d77.jpg","home3d78.jpg","home3d79.jpg","home3d80.jpg"]'
                            desktop-path="/image/sequence/desktop/"
                            mobile-sequence='["home3d00.jpg","home3d01.jpg","home3d02.jpg","home3d03.jpg","home3d04.jpg","home3d05.jpg","home3d06.jpg","home3d07.jpg","home3d08.jpg","home3d09.jpg","home3d10.jpg","home3d11.jpg","home3d12.jpg","home3d13.jpg","home3d14.jpg","home3d15.jpg","home3d16.jpg","home3d17.jpg","home3d18.jpg","home3d19.jpg","home3d20.jpg","home3d21.jpg","home3d22.jpg","home3d23.jpg","home3d24.jpg","home3d25.jpg","home3d26.jpg","home3d27.jpg","home3d28.jpg","home3d29.jpg","home3d30.jpg","home3d31.jpg","home3d32.jpg","home3d33.jpg","home3d34.jpg","home3d35.jpg","home3d36.jpg","home3d37.jpg","home3d38.jpg","home3d39.jpg","home3d40.jpg","home3d41.jpg","home3d42.jpg","home3d43.jpg","home3d44.jpg","home3d45.jpg","home3d46.jpg","home3d47.jpg","home3d48.jpg","home3d49.jpg","home3d50.jpg","home3d51.jpg","home3d52.jpg","home3d53.jpg","home3d54.jpg","home3d55.jpg","home3d56.jpg","home3d57.jpg","home3d58.jpg","home3d59.jpg","home3d60.jpg","home3d61.jpg","home3d62.jpg","home3d63.jpg","home3d64.jpg","home3d65.jpg","home3d66.jpg","home3d67.jpg","home3d68.jpg","home3d69.jpg","home3d70.jpg","home3d71.jpg","home3d72.jpg","home3d73.jpg","home3d74.jpg","home3d75.jpg","home3d76.jpg","home3d77.jpg","home3d78.jpg","home3d79.jpg","home3d80.jpg"]'
                            mobile-path="/image/sequence/mobile/"
@@ -424,12 +414,12 @@
                               <nav class="footer__nav">
                                  <div class="menu-footer_menu-container">
                                     <ul id="menu-footer_menu" class="menu">
-                                       <li id="menu-item-195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195"><a href="#">About</a></li>
-                                       <li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-289"><a href="#">Gallery</a></li>
-                                       <li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-295"><a href="#">Careers</a></li>
-                                       <li id="menu-item-192" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-192"><a href="#">Read the Blog</a></li>
-                                       <li id="menu-item-291" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-291"><a href="#">App for iPhone</a></li>
-                                       <li id="menu-item-290" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-290"><a href="#">App for Android</a></li>
+                                       <li class="menu-item"><a href="#">About</a></li>
+                                       <li class="menu-item"><a href="#">Gallery</a></li>
+                                       <li class="menu-item"><a href="#">Careers</a></li>
+                                       <li class="menu-item"><a href="#">Read the Blog</a></li>
+                                       <li class="menu-item"><a href="#">App for iPhone</a></li>
+                                       <li class="menu-item"><a href="#">App for Android</a></li>
                                     </ul>
                                  </div>
                                  <ul>
@@ -447,45 +437,29 @@
                                  <div id="sbi_images" style="padding: 5px;">
                                     <div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17903777056658365" data-date="1610046181">
                                        <div class="sbi_photo_wrap">
-                                          <a class="sbi_photo" href="" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-atl3-1.cdninstagram.com/v/t51.29350-15/135859862_742962362992512_6976662846447256360_n.jpg?_nc_cat=109&#038;ccb=2&#038;_nc_sid=8ae9d6&#038;_nc_ohc=qRma2d-GJzwAX-kzz6H&#038;_nc_ht=scontent-atl3-1.cdninstagram.com&#038;oh=0c49d49ce4606e2741f319fa251a6220&#038;oe=602530BC" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135859862_742962362992512_6976662846447256360_n.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=qRma2d-GJzwAX-kzz6H&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=0c49d49ce4606e2741f319fa251a6220&amp;oe=602530BC&quot;,&quot;150&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135859862_742962362992512_6976662846447256360_n.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=qRma2d-GJzwAX-kzz6H&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=0c49d49ce4606e2741f319fa251a6220&amp;oe=602530BC&quot;,&quot;320&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135859862_742962362992512_6976662846447256360_n.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=qRma2d-GJzwAX-kzz6H&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=0c49d49ce4606e2741f319fa251a6220&amp;oe=602530BC&quot;,&quot;640&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135859862_742962362992512_6976662846447256360_n.jpg?_nc_cat=109&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=qRma2d-GJzwAX-kzz6H&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=0c49d49ce4606e2741f319fa251a6220&amp;oe=602530BC&quot;}">
-                                          <span class="sbi-screenreader">Start off this New Year by designing your brand ne</span>
-                                          <img src="assets/img/placeholder.png" alt="">
+                                          <img src="image/footer-img-01.jpg" alt="">
                                           </a>
                                        </div>
                                     </div>
                                     <div class="sbi_item sbi_type_carousel sbi_new sbi_transition" id="sbi_17931464887460855" data-date="1609798648">
                                        <div class="sbi_photo_wrap">
-                                          <a class="sbi_photo" href="" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-atl3-1.cdninstagram.com/v/t51.29350-15/135360820_5312251705466556_2777518175894244200_n.jpg?_nc_cat=100&#038;ccb=2&#038;_nc_sid=8ae9d6&#038;_nc_ohc=090-fKRSbmkAX9eh_zz&#038;_nc_ht=scontent-atl3-1.cdninstagram.com&#038;oh=df269d266afe1d2916dfd7e8f53df517&#038;oe=602231F4" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135360820_5312251705466556_2777518175894244200_n.jpg?_nc_cat=100&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=090-fKRSbmkAX9eh_zz&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=df269d266afe1d2916dfd7e8f53df517&amp;oe=602231F4&quot;,&quot;150&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135360820_5312251705466556_2777518175894244200_n.jpg?_nc_cat=100&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=090-fKRSbmkAX9eh_zz&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=df269d266afe1d2916dfd7e8f53df517&amp;oe=602231F4&quot;,&quot;320&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135360820_5312251705466556_2777518175894244200_n.jpg?_nc_cat=100&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=090-fKRSbmkAX9eh_zz&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=df269d266afe1d2916dfd7e8f53df517&amp;oe=602231F4&quot;,&quot;640&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/135360820_5312251705466556_2777518175894244200_n.jpg?_nc_cat=100&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=090-fKRSbmkAX9eh_zz&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=df269d266afe1d2916dfd7e8f53df517&amp;oe=602231F4&quot;}">
-                                             <span class="sbi-screenreader">Repost from @studiomisfits 
-                                             Kicking off 2021 with </span>
-                                             <svg class="svg-inline--fa fa-clone fa-w-16 sbi_lightbox_carousel_icon" aria-hidden="true" aria-label="Clone" data-fa-proƒcessed="" data-prefix="far" data-icon="clone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                                <path fill="currentColor" d="M464 0H144c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v320c0 26.51 21.49 48 48 48h320c26.51 0 48-21.49 48-48v-48h48c26.51 0 48-21.49 48-48V48c0-26.51-21.49-48-48-48zM362 464H54a6 6 0 0 1-6-6V150a6 6 0 0 1 6-6h42v224c0 26.51 21.49 48 48 48h224v42a6 6 0 0 1-6 6zm96-96H150a6 6 0 0 1-6-6V54a6 6 0 0 1 6-6h308a6 6 0 0 1 6 6v308a6 6 0 0 1-6 6z"></path>
-                                             </svg>
-                                             <img src="assets/img/placeholder.png" alt="">
+                                          <img src="image/footer-img-02.jpg" alt="">
                                           </a>
                                        </div>
                                     </div>
                                     <div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17862986759259409" data-date="1607714353">
                                        <div class="sbi_photo_wrap">
-                                          <a class="sbi_photo" href="" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-atl3-1.cdninstagram.com/v/t51.29350-15/130564849_1304930013184089_5716072239486376079_n.jpg?_nc_cat=110&#038;ccb=2&#038;_nc_sid=8ae9d6&#038;_nc_ohc=s-LjpwJbLsQAX-JfudU&#038;_nc_oc=AQlpE93IvPTLRYz9WQuwaDcULd55bDDGkxoj50HGkobqnx2Qz6UIGQkSzKG7IZznMv4&#038;_nc_ht=scontent-atl3-1.cdninstagram.com&#038;oh=1f80af8eab1a4914f63a1482c587f126&#038;oe=60251A9B" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130564849_1304930013184089_5716072239486376079_n.jpg?_nc_cat=110&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=s-LjpwJbLsQAX-JfudU&amp;_nc_oc=AQlpE93IvPTLRYz9WQuwaDcULd55bDDGkxoj50HGkobqnx2Qz6UIGQkSzKG7IZznMv4&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=1f80af8eab1a4914f63a1482c587f126&amp;oe=60251A9B&quot;,&quot;150&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130564849_1304930013184089_5716072239486376079_n.jpg?_nc_cat=110&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=s-LjpwJbLsQAX-JfudU&amp;_nc_oc=AQlpE93IvPTLRYz9WQuwaDcULd55bDDGkxoj50HGkobqnx2Qz6UIGQkSzKG7IZznMv4&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=1f80af8eab1a4914f63a1482c587f126&amp;oe=60251A9B&quot;,&quot;320&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130564849_1304930013184089_5716072239486376079_n.jpg?_nc_cat=110&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=s-LjpwJbLsQAX-JfudU&amp;_nc_oc=AQlpE93IvPTLRYz9WQuwaDcULd55bDDGkxoj50HGkobqnx2Qz6UIGQkSzKG7IZznMv4&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=1f80af8eab1a4914f63a1482c587f126&amp;oe=60251A9B&quot;,&quot;640&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130564849_1304930013184089_5716072239486376079_n.jpg?_nc_cat=110&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=s-LjpwJbLsQAX-JfudU&amp;_nc_oc=AQlpE93IvPTLRYz9WQuwaDcULd55bDDGkxoj50HGkobqnx2Qz6UIGQkSzKG7IZznMv4&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=1f80af8eab1a4914f63a1482c587f126&amp;oe=60251A9B&quot;}">
-                                          <span class="sbi-screenreader">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-                                          <img src="assets/img/placeholder.png" alt="">
+                                          <img src="image/footer-img-03.jpg" alt="">
                                           </a>
                                        </div>
                                     </div>
                                     <div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17880572440948881" data-date="1607539873">
-                                       <div class="sbi_photo_wrap">
-                                          <a class="sbi_photo" href="" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-atl3-1.cdninstagram.com/v/t51.29350-15/130151912_894725957965465_536661951518957863_n.jpg?_nc_cat=104&#038;ccb=2&#038;_nc_sid=8ae9d6&#038;_nc_ohc=WL62t-oaAN0AX_t5oNa&#038;_nc_ht=scontent-atl3-1.cdninstagram.com&#038;oh=732c7654a07f879141e1035a1de4b9ec&#038;oe=60227823" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130151912_894725957965465_536661951518957863_n.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=WL62t-oaAN0AX_t5oNa&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=732c7654a07f879141e1035a1de4b9ec&amp;oe=60227823&quot;,&quot;150&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130151912_894725957965465_536661951518957863_n.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=WL62t-oaAN0AX_t5oNa&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=732c7654a07f879141e1035a1de4b9ec&amp;oe=60227823&quot;,&quot;320&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130151912_894725957965465_536661951518957863_n.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=WL62t-oaAN0AX_t5oNa&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=732c7654a07f879141e1035a1de4b9ec&amp;oe=60227823&quot;,&quot;640&quot;:&quot;https:\/\/scontent-atl3-1.cdninstagram.com\/v\/t51.29350-15\/130151912_894725957965465_536661951518957863_n.jpg?_nc_cat=104&amp;ccb=2&amp;_nc_sid=8ae9d6&amp;_nc_ohc=WL62t-oaAN0AX_t5oNa&amp;_nc_ht=scontent-atl3-1.cdninstagram.com&amp;oh=732c7654a07f879141e1035a1de4b9ec&amp;oe=60227823&quot;}">
-                                          <span class="sbi-screenreader">We have re-envisioned various infrastructural elem</span>
-                                          <img src="assets/img/placeholder.png" alt="">
+                                     <div class="sbi_photo_wrap">
+                                          <img src="image/footer-img-04.jpg" alt="">
                                           </a>
                                        </div>
                                     </div>
-                                 </div>
-                                 <div id="sbi_load">
-                                 </div>
-                                 <span class="sbi_resized_image_data" data-feed-id="sbi_17841402291441592#4" data-resized="{&quot;17880572440948881&quot;:{&quot;id&quot;:&quot;130151912_894725957965465_536661951518957863_n&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}},&quot;17862986759259409&quot;:{&quot;id&quot;:&quot;130564849_1304930013184089_5716072239486376079_n&quot;,&quot;ratio&quot;:&quot;1.28&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320}}}">
-                                 </span>
+                                 </div>                                
                               </div>
                            </insta-photos>
                         </div>
