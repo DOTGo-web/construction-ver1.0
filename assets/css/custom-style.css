@@ -3247,8 +3247,8 @@ html.v-page_home-page .header-logo a, html.v-page_home-page .header__logo a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     font-size: 1.25rem;
     line-height: 150%;
